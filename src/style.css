@@ -1,1 +1,28 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  margin: 0;
+  padding: 20px;
+  background: lightblue;
+}
+.container-fluid text-center {
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  margin-top: 20px;
+}
+h1 {
+  margin-top: 250px;
+}
+#excuse {
+  font-size: xx-large;
+  font-style: italic;
+}
+
+button:focus {
+  background: lightpink;
+}
+bottom {
+  background: white;
+}
